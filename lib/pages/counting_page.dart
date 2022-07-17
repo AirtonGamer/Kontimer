@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kontimer/provider.dart';
 import 'package:provider/provider.dart';
-import 'package:step_progress_indicator/step_progress_indicator.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 
 import '../theme.dart';
