@@ -1,12 +1,21 @@
-# kontimer
+# Kontimer
 
-A new Flutter project.
+A Desktop Timer App Written in Flutter And Dart. 
 
 ## Getting Started
+  
+### Requriments
+To Install you will need to have the latest flutter version
+### Commands
 
-This project is a starting point for a Flutter application.
+#### Windows
+flutter build windows
 
-A few resources to get you started if this is your first Flutter project:
+#### Macos
+flutter build macos
+
+#### Linux
+flutter build linux
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
