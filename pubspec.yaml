@@ -1,5 +1,5 @@
 name: kontimer
-description: A new Flutter project.
+description: Desktop Timer App.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -38,10 +38,9 @@ dependencies:
   audioplayers: ^1.0.1
   get: ^4.6.5
   percent_indicator: ^4.2.2
-  tbib_splash_screen: ^0.0.6
-  icons_launcher: ^1.2.1
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.9.3
   flutter_test:
     sdk: flutter
 
@@ -54,12 +53,11 @@ dev_dependencies:
 
 flutter_icons:
   image_path: 'assets/icons/icon.png'
-  ios: true
-  android: true
+  ios: false
+  android: false
   windows: true
   macos: true
   linux: true
-  web: false
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

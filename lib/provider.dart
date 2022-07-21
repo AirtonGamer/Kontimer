@@ -6,7 +6,6 @@ import "package:get/get.dart";
 
 import 'pages/counting_page.dart';
 
-final _player2 = AudioPlayer();
 
 class TimerBack with ChangeNotifier {
   int hoursLeft = 0;
@@ -15,10 +14,8 @@ class TimerBack with ChangeNotifier {
   bool started = false;
   bool paused = false;
   bool canceled = false;
-  // int hoursSteps = 0;
-  // int minutesSteps = 0;
-  // int secondsSteps = 0;
   int totalSteps = 0;
+  final _player2 = AudioPlayer();
 
   void pausefunc() {
     paused = !paused;
@@ -28,9 +25,6 @@ class TimerBack with ChangeNotifier {
   void cancelfunc() async {
     canceled = true;
     totalSteps = 0;
-    // hoursSteps = 0;
-    // minutesSteps = 0;
-    // secondsSteps = 0;
     hoursLeft = 0;
     minutesLeft = 0;
     secondsLeft = 0;
@@ -71,7 +65,6 @@ class TimerBack with ChangeNotifier {
         notifyListeners();
       }
     });
-    notifyListeners();
   }
 
   void changeTimeFunc(bool isup, String name) {

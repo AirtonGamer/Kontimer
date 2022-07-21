@@ -6,7 +6,7 @@ const Color secondaryColor = Color.fromRGBO(187, 134, 252, 1);
 
 const Color white = Colors.white;
 
-const roundedborders = RoundedRectangleBorder(
+const RoundedRectangleBorder roundedborders = RoundedRectangleBorder(
   borderRadius: BorderRadius.all(Radius.circular(20)),
 );
 
